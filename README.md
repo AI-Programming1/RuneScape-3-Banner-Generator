@@ -23,4 +23,6 @@ banner.js → Renders the username + skills list inside the banner container; ha
 style.css → Styles for both the generator and the banner, ensuring fixed sizing, clean layout, and rounded corners.
 your-template.html → The page loaded inside the <iframe>; it reads query parameters (username, color, background) and calls banner.js to render the final banner.
 
+***Keep in mind, this is a unfinished project; While the core elements work, some issues are still present. It's a rough draft***
+
 This script was written enitrely using the Artifical Intelligence Model: Chatgpt-5 by OpenAI.
