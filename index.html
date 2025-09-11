@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RuneScape 3 Banner Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* extra layout styles for the generator page */
+    .controls {
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      max-width: 400px;
+    }
+    .controls label {
+      font-size: 14px;
+    }
+    textarea {
+      width: 100%;
+      height: 80px;
+      resize: none;
+      font-family: monospace;
+    }
+    button {
+      cursor: pointer;
+      padding: 6px 12px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <!-- Banner preview -->
+    <div id="banner" class="banner"></div>
+
+    <!-- Controls -->
+    <div class="controls">
+      <label>
+        RuneScape 3 Username:
+        <input type="text" id="username" placeholder="Enter username">
+      </label>
+
+      <label>
+        Upload Background:
+        <input type="file" id="bgImage" accept="image/*">
+      </label>
+
+      <button id="gradientBtn">Random Gradient Background</button>
+
+  <label for="textColor">Text Color:</label>
+  <input type="color" id="textColor" value="#ffffff" />
+
+      <button id="generateBtn">Generate Banner</button>
+
+      <label>
+        Iframe Embed Code:
+        <textarea id="iframeCode" readonly></textarea>
+      </label>
+    </div>
+  </div>
+
+  <!-- Shared + Page-specific JS -->
+  <script src="banner.js"></script>
+  <script src="script.js"></script>
+  
+<iframe src="your-template.html?user=zezima&color=%23ffffff&gradient=linear-gradient(135deg%2C%20%23a18cd1%2C%20%23e0c3fc)" style="width:335px;height:249px;border:none;"></iframe>
+
+</body>
+</html>
