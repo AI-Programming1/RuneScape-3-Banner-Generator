@@ -25,9 +25,9 @@ your-template.html → The page loaded inside the <iframe>; it reads query param
 
 ***Keep in mind, this is a unfinished project; While the core elements work, some issues are still present. It's a rough draft***
 [RS3 URL Hiscores]
-https://secure.runescape.com/m=hiscore/index_lite.ws?player=<USERNAME>
+[https://secure.runescape.com/m=hiscore/index_lite.ws?player=<USERNAME>]
 [OSRS URL Hiscores]
-https://secure.runescape.com/m=hiscore_oldschool/index_lite.ws?player=<USERNAME>
+[https://secure.runescape.com/m=hiscore_oldschool/index_lite.ws?player=<USERNAME>]
 
 
 --This script was written enitrely using the Artifical Intelligence Model: Chatgpt-5 by OpenAI.--
