@@ -1,5 +1,11 @@
 # RuneScape-3-Banner-Generator
-This project creates sharable RuneScape 3 character banners that display a player’s username and skill stats inside a fixed-size banner container (335×249).
+This project creates a sharable RuneScape 3/OSRS character banners that display a player’s username and skill stats inside a fixed-size banner container (335×249).
+
+***The original goal of this project was to reignite the banners from the 2006-2010 runescape scene era.***
+
+***The goal is simple: To make it easily acessible for anyone to create there own RS3/OSRS banner without the need of a server, taking advantage of community proxies to display there own Runescape Stats and utilizing random gradient layers backgrounds for light, and easy distributable iframes.***
+
+***The current files are exactly that. If you would like access to "upload/images" and "own hosted proxies" feel free to download the resources below and the cloudflare worker files included in my Github repository.***
 
 The tool lets a user:
 Enter their RuneScape 3 username.
